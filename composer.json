@@ -7,8 +7,9 @@
       "app/models"
     ]
   },
-  "require": {
-    "phpunit/phpunit": "5.4.*",
-    "facebook/webdriver": "^1.1"
+  "require-dev":
+  {
+    "phpunit/phpunit":"*",
+    "facebook/webdriver":"dev-master"
   }
 }
