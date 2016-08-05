@@ -27,7 +27,7 @@ class GitHubSearchTest extends PHPUnit_Framework_TestCase
         $this->_webdriver = RemoteWebDriver::create('http://localhost:4443/wd/hub', $capabilities);
     }
 
-    public function GitHub()
+    public function testGitHub()
     {
         //get content of an url
         $this->_webdriver->get($this->_url);
